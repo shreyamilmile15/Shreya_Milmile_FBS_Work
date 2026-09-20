@@ -21,13 +21,13 @@ print('sun=', sum)'''
 
 #c. Find the sum of a geometric series from 1 to n where the common ratio is 2.
 
-#n = int(input('enter the number: '))
-#sum = 0
-#term = 1
-#for i in range (1, n+1):
- #   sum = sum + term
-  #  term = term*2
-#print('sum =', sum)
+n = int(input('enter the number: '))
+sum = 0
+term = 1
+for i in range (1, n+1):
+   sum = sum + term
+   term = term*2
+print('sum =', sum)
 
 #d. S = a + a2 / 2 + a3 / 3 + ...... + a10 / 10
 
@@ -39,7 +39,7 @@ print('sum = ',sum)'''
 
 #e. x - x2/3 + x3/5 - x4/7 + .... to n terms
 
-x = int(input("Enter x: "))
+'''x = int(input("Enter x: "))
 n = int(input("Enter number of terms: "))
 
 sum = 0
@@ -54,4 +54,4 @@ for i in range(1, n + 1):
     else:
         sum = sum + term
 
-print("Sum =", sum)
+print("Sum =", sum)'''
