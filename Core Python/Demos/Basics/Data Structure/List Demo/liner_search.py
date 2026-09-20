@@ -1,0 +1,1 @@
+def linearSearch(li, search_ele):
